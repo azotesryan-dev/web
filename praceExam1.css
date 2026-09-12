@@ -1,4 +1,4 @@
-
+/* 
 
         body {
             background-color: black;
@@ -15,11 +15,51 @@
             color: wheat;
             font-family: "montserrat", "courier-new";
         }
-
+    
         #pre1{
             color: white;
         }
 
         .odd{
             color: gray;
+        } */
+
+        .container{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        #h1{
+            border: 3px solid wheat;
+            border-radius: 15px;
+            color: wheat;
+            text-align: center;
+            width: 40%;
+            margin-left: auto;
+        }
+
+        #h2{
+            border: 3px solid wheat;
+            border-radius: 15px;
+            color: wheat;
+            text-align: center;
+            width: 40%;
+            margin-right: auto;
+        }
+
+        pre{
+            text-align: center;
+            padding-top: 10px;
+            border-bottom: 3px solid red;
+            border-top: 3px solid blue;
+            border-left: 3px dotted yellow;
+            border-right: 3px dotted green;
+            color: wheat;
+        }
+
+        body{
+            background-color: black;
         }
