@@ -1,0 +1,21 @@
+
+
+        body {
+            background-color: black;
+        }
+        
+        pre{
+            color: wheat;
+        }
+
+        h1{
+            color: wheat;
+        }
+
+        #pre1{
+            color: white;
+        }
+
+        .odd{
+            color: gray;
+        }
