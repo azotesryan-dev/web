@@ -82,7 +82,7 @@
     </tr>
 </table> -->
 
-<br><br>
+<!-- <br><br>
 
 
 <button onclick="doSomething()" style="font-size: 25px; background-color: blueviolet;border-color: red; border-radius: 20px;">Chinese Beaver</button>
@@ -94,7 +94,25 @@
         let p1 = document.getElementById("p1").innerHTML = "lababababa";
     }
 
-</script>
+</script> -->
+
+<form action= "index.php" method= "GET">s
+
+<label for="name">Username: </label>
+<input type="text" placeholder="Enter Your name" id="name" minlength="10" maxlength="15" required>
+<br>
+<label for="password"> Password: </label>
+<input type="password" placeholder="Enter Your Password" id="password" minlength="10" maxlength="15" required>
+<br>
+<label for="email"> Email: </label>
+<input type="email" placeholder="Enter Your Password" id="email" required>
+<br>
+<label for="phone"> Phone: </label>
+<input type="tel" placeholder="093-123-4567" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<br><br>
+<input type="submit">
+
+</form>
 
 </body>
 
