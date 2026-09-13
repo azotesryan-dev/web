@@ -24,6 +24,7 @@
             color: gray;
         } */
 
+/* 
         .container{
             display: flex;
             width: 100%;
@@ -62,4 +63,29 @@
 
         body{
             background-color: black;
+        } */
+
+        /* body{
+            border: 5px solid red;
+        }
+
+        #img1{
+            float: left;
+        } */
+
+        /* #id1 {
+            border: 3px solid;
+            width: 30%;
+            height: 75px;
+            overflow: scroll;
+        } */
+
+        .div{
+            display: flex;
+        }
+
+        .div1{
+            flex: 1;
+            background-color: wheat;
+            height: 500px;
         }
